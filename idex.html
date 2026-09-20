@@ -42,4 +42,53 @@
     }
 
     .service {
-      background: wh…
+      background: white;
+      padding: 25px 15px;
+      text-align: center;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      cursor: pointer;
+    }
+
+    .service:hover {
+      transform: translateY(-3px);
+    }
+
+    .button {
+      display: block;
+      margin: 30px auto;
+      padding: 15px 30px;
+      background: #0b5cff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 17px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>OneCall</h1>
+    <p>Everything you need, in one call.</p>
+  </header>
+
+  <div class="container">
+    <h2>Our Services</h2>
+
+    <div class="services">
+      <div class="service">🚗<br>Transport</div>
+      <div class="service">🍔<br>Food Delivery</div>
+      <div class="service">🔧<br>Repairs</div>
+      <div class="service">🏠<br>Home Services</div>
+      <div class="service">💊<br>Health</div>
+      <div class="service">🛒<br>Shopping</div>
+    </div>
+
+    <button class="button">Get Started</button>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
